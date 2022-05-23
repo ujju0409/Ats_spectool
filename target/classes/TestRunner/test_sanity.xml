@@ -1,0 +1,35 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="SpecTool Test Suite" verbose="4" thread-count="4"
+	>
+
+	
+	 <listeners>
+		<listener class-name="com.qa.spectool.listeners.TestAllureListener"/>
+	</listeners>  
+ 
+	<test name="SpecTool LoginPage Test">
+		<classes>
+			<class name="com.qa.spectool.test.LoginPageTest" />
+		</classes>
+	</test>
+
+	 <test name="SpecTool DashboardPage  Test">
+		<classes>
+			<class name="com.qa.spectool.test.DashboardPageTest" />
+		</classes>
+	</test>
+ 
+	 <test name="SpecTool CreatPageTest Test">
+		<classes>
+			<class name="com.qa.spectool.test.CreatPageTest" />
+		</classes>
+	</test>
+
+	<test name="SpecTool SIngupPageTestt Test">
+		<classes>
+			<class name="com.qa.spectool.test.SIngupPageTest" />
+		</classes>
+	</test>   
+  
+</suite>
