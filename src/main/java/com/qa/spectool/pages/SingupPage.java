@@ -47,7 +47,7 @@ public class SingupPage {
 	
 	public void singUp(String emailID, String firstName, String lastName, String psw,String comName, String comAddress, String countryName,String provinceName,String cityName,String zipCode ,String orgType,String Name) throws InterruptedException
 	{
-		Thread.sleep(5000);
+		Thread.sleep(7000);
 		driver.findElement(sinuplink).click();
 		
 //		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(20));
